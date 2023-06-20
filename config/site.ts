@@ -15,11 +15,11 @@ export const siteConfig = {
     },
     {
       title: 'Projects',
-      href: "/projects",
+      href: "/projects/:id",
     }
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
+    twitter: "https://twitter.com/elorm_elom",
     github: "https://github.com/Akarikev",
 
   },
