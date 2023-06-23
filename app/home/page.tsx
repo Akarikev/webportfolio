@@ -22,7 +22,7 @@ const Homepage: FC<pageProps> = ({}) => {
               {`I'm a Front-end developer based in Ghana`}
             </p>
           </div>
-          <div className="flex gap-4 mt-3">
+          <div className="mt-3 flex gap-4">
             <a
               download="Prince Elorm"
               target="_blank"
@@ -44,14 +44,14 @@ const Homepage: FC<pageProps> = ({}) => {
         </div>
 
         <div className="flex items-center justify-center">
-          <div className="bg-slate-200 w-[380px] h-[380px] rounded-full -z-10">
+          <div className="-z-10 h-[380px] w-[380px] rounded-full bg-slate-200">
             <Image
               src={profile}
               alt="profile image"
               width={270}
               objectFit="center"
               height={270}
-              className="object-center  rounded-b-full z-10 mx-auto"
+              className="z-10  mx-auto rounded-b-full object-center"
             />
           </div>
         </div>
